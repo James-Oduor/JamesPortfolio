@@ -1,3 +1,36 @@
+/* Root Variables for Consistent Styling */
+:root {
+    --primary-color: blue; /* Original primary color */
+    --secondary-color: green; /* Original secondary color for icons */
+    --accent-color: red; /* Original accent color for location icon */
+    --text-color: #333333;
+    --subtext-color: #555555;
+    --background-color: #f7f7f7; /* Original background color */
+    --white: #ffffff;
+    --border-color: #cccccc;
+    
+    /* Font Sizes */
+    --font-size-small: 1rem;
+    --font-size-medium: 1.2rem;
+    --font-size-large: 1.5rem;
+    --font-size-xlarge: 2rem;
+    --font-size-heading: 2.5rem;
+    --font-size-subheading: 2rem;
+  }
+  .contactDetails p {
+    color: var(--primary-color); /* Maintain original color for subheadings */
+    margin-top: 1rem;
+    font-size: var(--font-size-medium); /* Increased font size */
+    font-weight: 600;
+  }
+  .contactInfo h2 {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    font-size: var(--font-size-heading); /* Increased font size */
+    color: var(--secondary-color); /* Darker color for better readability */
+    font-weight: 700;
+    font-style: normal;
+  }
 #works{
     margin: 0 auto;
     min-height: calc(100vh - 4rem);
